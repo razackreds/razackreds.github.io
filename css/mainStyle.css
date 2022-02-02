@@ -1,6 +1,6 @@
 .IamBlack{
-    max-width: 450px;
-    height: 500;
+    max-width: 550px;
+    height: 600px;
     opacity: 1;
     margin: 0px;
     left: 100px;
@@ -25,7 +25,6 @@ caption{
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: rgba(255, 255, 255);
     z-index: 100;
 }
 .social{
@@ -46,8 +45,13 @@ hr{
     border: 20px solid gray;
 }
 .SvgSmSBackground{
-    background: url(../_img/wave.svg);
+    background: url(../_img/bg.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+}
+.TechLanguage ul li{
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-right: 0.5rem;
 }
