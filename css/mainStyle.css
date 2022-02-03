@@ -6,7 +6,7 @@
     left: 100px;
 }
 .FullHeight{
-    max-height: 100vh !important;
+    height: auto;
 }
 ul,li,a{
     display: inline;
